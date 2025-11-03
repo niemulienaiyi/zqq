@@ -1,0 +1,106 @@
+<style>
+    /* ===== 基础设置 ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      background-color: #f9f5e3;
+      font-family: "STKaiti", "Microsoft YaHei", serif;
+      color: #2f2b23;
+    }
+
+    /* ===== 页面整体容器 ===== */
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;          
+      max-width: 640px;   
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.6);
+      margin: 0 auto;         
+      border: 3px solid #2e4e3f;
+      border-radius: 12px;
+      padding: 10px;
+    }
+
+    /* ===== 顶部栏 ===== */
+    header {
+      height: 70px;
+      background-color: #2e4e3f;
+      color: #fdfbf5;
+      text-align: center;
+      line-height: 70px;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      border-radius: 8px;
+    }
+
+    /* ===== 主体内容 ===== */
+    main {
+      flex: 1;
+      padding: 20px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .question {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 15px;
+      line-height: 1.6em;
+      max-width: 90%;
+    }
+
+    .illustration {
+      width: 85%;
+      max-width: 480px;
+      border-radius: 8px;
+      margin: 15px 0 20px 0;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+    /* ===== 选项区域 ===== */
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 90%;
+      max-width: 580px;
+    }
+
+    .option {
+      background-color: #faf8f0;
+      border: 2px solid #2e4e3f;
+      border-radius: 10px;
+      padding: 12px;
+      font-size: 16px;
+      text-align: left;
+      word-break: break-word;
+    }
+
+    /* ===== 底部按钮 ===== */
+    footer {
+      height: 70px;
+      background-color: #f9f5e3;
+      border-top: 2px solid #2e4e3f;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #2e4e3f;
+      color: #fdfbf5;
+      border: none;
+      padding: 10px 28px;
+      font-size: 15px;
+      border-radius: 8px;
+      letter-spacing: 1px;
+    }
+  </style>
